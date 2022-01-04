@@ -14,7 +14,7 @@ h1{
 p{
     text-align: justify;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 50px;
 }
@@ -71,10 +71,28 @@ h1.world{
     padding: 10px 30px;
     text-align: right;
 }
-button{
-    background-color: rgba(19, 90, 223, 0.884);
-    text-align-last: center;
-    border-radius: 6px;
-    padding: 10px 30px;
-    margin: 30px 300px;
+.hot-pink{
+    color: rgb(250, 43, 146);
+}
+.side-banner{
+    background-image: url(new-folder/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;margin-bottom: 10%;
+}
+.experience-item{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left-style: groove;
+    border-left-width: 20px;
+    border-color: rgb(97, 97, 247);
+    box-shadow: 10px 10px 40px darkorange;
+}
+.blue-color{
+    color: mediumblue;
+}
+.text-shadow{
+    color: orange;
+    font-stretch: wider;
 }
