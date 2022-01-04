@@ -96,3 +96,6 @@ h1.world{
     color: orange;
     font-stretch: wider;
 }
+footer p{
+    text-align: center;
+}
